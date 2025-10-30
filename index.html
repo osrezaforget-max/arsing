@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fa">
+  <head>
+    <meta charset="utf-8">
+    <title>arsing</title>
+    <link href="login.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+    <p class="ars">ars</p>
+    <p class="ing">ing</p>
+    <p class="email_text">Email address</p>
+    <div class="email_div">
+      <input type="email" class="email_input">
+    </div>
+
+    <p class="password_text">Password</p>
+    <div class="password_div">
+      <input type="password" class="password_input" minlength = "8" maxlength="16">
+    </div>
+	<button class="sign_in">sign in</button>
+	<P class="or">or</P>
+	<div class="line_left"></div>
+	<div class="line_right"></div>
+	<button class="google">continue with google</button>
+	<P class = "p_new">new to arsing?<a href="login.html" class = "a_new">create an account</a></P>
+	<div class = "div_forget_password">
+	  <a href = "login.html" class = "forget_password">Forget Password</a>
+	</div>
+	
+    <script>
+  		const emailInput = document.querySelector(".email_input");
+  		const passwordInput = document.querySelector(".password_input");
+
+  		emailInput.addEventListener("focus", () => {
+    		emailInput.classList.add("active");
+  		});
+
+  		emailInput.addEventListener("blur", () => {
+    		if (emailInput.value.trim() === "") {
+      		emailInput.classList.remove("active");
+    		}
+  		});
+
+  		emailInput.addEventListener("input", () => {
+    		if (emailInput.value.trim() === "") {
+      		emailInput.classList.remove("active");
+    		} else {
+      		emailInput.classList.add("active");
+    		}
+  		});
+
+  
+  		passwordInput.addEventListener("focus", () => {
+    		passwordInput.classList.add("active");
+  		});
+
+  		passwordInput.addEventListener("blur", () => {
+    		if (passwordInput.value.trim() === "") {
+      		passwordInput.classList.remove("active");
+    		}
+  		});
+
+  		passwordInput.addEventListener("input", () => {
+    		if (passwordInput.value.trim() === "") {
+      		passwordInput.classList.remove("active");
+    		} else {
+      		passwordInput.classList.add("active");
+    		}
+  		})
+	  </script>
+	  
+  </body>
+</html>
