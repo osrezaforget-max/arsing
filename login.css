@@ -1,9 +1,11 @@
 @font-face {
   font-family: 'Frick';
-  src: url('fonts/Frick-0.3.ttf') format('truetype');
+  src: url('fonts/Frick-0.3.woff2') format('woff2'),
+       url('fonts/Frick-0.3.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+
 
 @font-face {
   font-family: 'ClarityCity';
@@ -187,5 +189,6 @@ body{
 	left: 13vh
 
 }
+
 
 
