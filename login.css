@@ -21,7 +21,7 @@ body{
 	font-size: 3vh; 
 	text-align: center; 
 	position: relative; 
-	font-family: "Frick", sans-serif; 
+	font-family: Arial, sans-serif; 
 	user-select: none; 
 	top: 19vh; 
 } 
@@ -189,6 +189,7 @@ body{
 	left: 13vh
 
 }
+
 
 
 
