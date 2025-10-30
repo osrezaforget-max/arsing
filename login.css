@@ -1,19 +1,17 @@
 @font-face {
   font-family: 'Frick';
-  src: url('https://db.onlinewebfonts.com/t/f2a25073dcf1b85d9f937e8bd62b05a9.woff2') format('woff2'),
-       url('https://db.onlinewebfonts.com/t/f2a25073dcf1b85d9f937e8bd62b05a9.woff')   format('woff'),
-       url('https://db.onlinewebfonts.com/t/f2a25073dcf1b85d9f937e8bd62b05a9.ttf')    format('truetype');
+  src: url('./fonts/Frick-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'ClarityCity';
-  src: url('https://db.onlinewebfonts.com/t/1983a017d53c525b6dd45e8a071467fa.woff2') format('woff2'),
-       url('https://db.onlinewebfonts.com/t/1983a017d53c525b6dd45e8a071467fa.woff')   format('woff'),
-       url('https://db.onlinewebfonts.com/t/1983a017d53c525b6dd45e8a071467fa.ttf')    format('truetype');
+  src: url('./fonts/ClarityCity-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 body{ 
 	background: linear-gradient(to left , purple , black) 
@@ -189,4 +187,5 @@ body{
 	text-decoration: none;
 	bottom: 24vh;
 	left: 13vh
+
 }
