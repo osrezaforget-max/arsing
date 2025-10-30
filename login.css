@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Frick';
-  src: url('fonts/Frick 0.3.ttf') format('truetype');
+  src: url('fonts/Frick-0.3.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -187,4 +187,5 @@ body{
 	left: 13vh
 
 }
+
 
